@@ -1,0 +1,18 @@
+version: "2"
+services:
+  test-app:
+    image: soap.juannavas.xyz
+    container_name: soap.juannavas.xyz
+    volumes:
+      - test-storage:/var/www/html/backend/storage
+    labels:
+      - "traefik.enable=true"
+      - "traefik.frontend.rule=Host:soap.juannavas.xyz"
+      - "traefik.port=80"
+
+networks:
+  default:
+    external:
+      name: traefik
+volumes:
+  test-storage:
