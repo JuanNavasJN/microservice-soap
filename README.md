@@ -1,5 +1,5 @@
 # Microservice SOAP
 
-1. [https://soap.juannavas.xyz/api/rest-object](https://soap.juannavas.xyz/api/soap-object)
+1. [https://soap.juannavas.dev/api/rest-object](https://soap.juannavas.dev/api/soap-object)
 
-2. [https://soap.juannavas.xyz/api/rest-list](https://soap.juannavas.xyz/api/soap-list)
+2. [https://soap.juannavas.dev/api/rest-list](https://soap.juannavas.dev/api/soap-list)
